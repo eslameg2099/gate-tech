@@ -24,6 +24,8 @@
                     @endif
                 </ul>
                 
+
+                
                 <invoice-form type="{{ request('type', 'credit') }}">
                     {{ BsForm::submit()->label(trans('rents.actions.payment')) }}
                 </invoice-form>
