@@ -1,0 +1,12 @@
+[
+    "manage.supervisors",
+    "manage.customers",
+    "manage.feedback",
+    "manage.settings",
+    "manage.buildings",
+    "manage.apartments",
+    "manage.services",
+    "manage.owners",
+    "manage.debits",
+    "manage.credits"
+]

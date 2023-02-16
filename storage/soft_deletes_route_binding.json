@@ -1,0 +1,10 @@
+{
+    "trashed_admin": "App\\Models\\Admin",
+    "trashed_supervisor": "App\\Models\\Supervisor",
+    "trashed_customer": "App\\Models\\Customer",
+    "trashed_feedback": "App\\Models\\Feedback",
+    "trashed_building": "App\\Models\\Building",
+    "trashed_apartment": "App\\Models\\Apartment",
+    "trashed_service": "App\\Models\\Service",
+    "trashed_owner": "App\\Models\\Owner"
+}

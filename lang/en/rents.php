@@ -1,0 +1,67 @@
+<?php
+
+return [
+    'singular' => 'Tenant',
+    'plural' => 'Tenants',
+    'empty' => 'There are no tenants yet.',
+    'count' => 'Tenants Count.',
+    'search' => 'Search',
+    'select' => 'Select Tenant',
+    'permission' => 'Manage tenants',
+    'trashed' => 'Trashed tenants',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for tenant',
+    'payment' => 'Make Payment',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new tenant',
+        'show' => 'Show tenant',
+        'edit' => 'Edit tenant',
+        'delete' => 'Delete tenant',
+        'restore' => 'Restore',
+        'forceDelete' => 'Delete Forever',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+        'payment' => 'Payment',
+    ],
+    'messages' => [
+        'created' => 'The tenant has been created successfully.',
+        'updated' => 'The tenant has been updated successfully.',
+        'deleted' => 'The tenant has been deleted successfully.',
+        'restored' => 'The tenant has been restored successfully.',
+        'paid' => 'The transaction has been paid successfully.',
+    ],
+    'errors' => [
+        'overlap' => 'The apartment is not available in the this period.',
+    ],
+    'attributes' => [
+        'user_id' => 'Tenant',
+        'apartment_id' => 'Unit',
+        'from' => 'From',
+        'to' => 'To',
+        'period' => 'Period',
+        'renewable' => 'Renewable',
+        'amount' => 'Cost per month',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the tenant ?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the tenant ?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the tenant forever ?',
+            'confirm' => 'Delete Forever',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];

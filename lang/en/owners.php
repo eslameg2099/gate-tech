@@ -1,0 +1,60 @@
+<?php
+
+return [
+    'plural' => 'Owners',
+    'singular' => 'Owner',
+    'empty' => 'There are no owners',
+    'select' => 'Select Owner',
+    'permission' => 'Manage Owners',
+    'trashed' => 'Trashed Owners',
+    'perPage' => 'Count Results Per Page',
+    'actions' => [
+        'list' => 'List Owners',
+        'show' => 'Show Owner',
+        'create' => 'Create',
+        'new' => 'New',
+        'edit' => 'Edit Owner',
+        'delete' => 'Delete Owner',
+        'restore' => 'Restore',
+        'forceDelete' => 'Force Delete',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The owner has been created successfully.',
+        'updated' => 'The owner has been updated successfully.',
+        'deleted' => 'The owner has been deleted successfully.',
+        'restored' => 'The owner has been restored successfully.',
+    ],
+    'attributes' => [
+        'name' => 'Name',
+        'phone' => 'Phone',
+        'email' => 'Email',
+        'created_at' => 'The Date Of Join',
+        'old_password' => 'Old Password',
+        'password' => 'Password',
+        'password_confirmation' => 'Password Confirmation',
+        'type' => 'User Type',
+        'avatar' => 'Avatar',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the owner ?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the owner ?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to force delete the owner ?',
+            'confirm' => 'Force',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];

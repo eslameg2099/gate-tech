@@ -1,0 +1,60 @@
+<?php
+
+return [
+    'singular' => 'Building',
+    'plural' => 'Buildings',
+    'empty' => 'There are no buildings yet.',
+    'count' => 'Buildings Count.',
+    'search' => 'Search',
+    'select' => 'Select Building',
+    'select_floor' => 'Select Floor',
+    'permission' => 'Manage buildings',
+    'trashed' => 'Trashed buildings',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for building',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new building',
+        'show' => 'Show building',
+        'edit' => 'Edit building',
+        'delete' => 'Delete building',
+        'restore' => 'Restore',
+        'forceDelete' => 'Delete Forever',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The building has been created successfully.',
+        'updated' => 'The building has been updated successfully.',
+        'deleted' => 'The building has been deleted successfully.',
+        'restored' => 'The building has been restored successfully.',
+    ],
+    'attributes' => [
+        'user_id' => 'Building Owner',
+        'name' => 'Building Name',
+        '%name%' => 'Building Name',
+        'apartments_count' => 'Apartments Count',
+        'rented_apartments_count' => 'Rented apartments Count',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the building ?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the building ?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the building forever ?',
+            'confirm' => 'Delete Forever',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];
